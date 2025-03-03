@@ -21,7 +21,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     gender = st.selectbox("Gender", ["M", "F"])
-    ethnicity = st.selectbox("Ethnicity", ["Latino", "African American", "Caucasian", "Asian American"])
+    ethnicity = st.selectbox("Ethnicity", ["Latino", "African American", "caucasian", "Asian American"])
     education_level = st.selectbox("Education Level", ["Mid-School", "High-School", "College", "Grad"])
     hotel_type = st.selectbox("Hotel Type", ["City Hotel", "Airport Hotels", "Resort"])
     meal_type = st.selectbox("Meal Type", ["BB", "FB", "HB"])
