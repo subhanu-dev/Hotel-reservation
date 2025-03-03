@@ -101,9 +101,7 @@ if st.button("Submit"):
 
 
             with open('encoders.pkl', 'rb') as file:
-                encoders = pickle.load(file)
-                
-
+                encoders = pickle.load(file)       
                 
             # Label Encoding for categorical features
             
